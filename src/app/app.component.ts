@@ -11,28 +11,28 @@ export class picapollo implements OnInit{
   public edad = 18.5
 
   constructor(){
-    function classDecorator<T extends {new (...args:any[]) : {}}>(
-      constructor: T
-    ){
-      return class extends constructor{
-        newProperty = 'New Property'
-        hello = "override"
-      }
+    interface Passenger{
+      name: string
+      children?: string[]
     }
-
-    @classDecorator
-    class SuperClass {
-      public myProperty: string = 'Abc123'
-
-      print(){
-        console.log('Hola mundo')
+      const passenger1: Passenger = {
+        name: 'Yo'
       }
+
+      const passenger2: Passenger = {
+        name: 'Melissa',
+        children: ['Natalia', 'Elizabeth']
+      }
+
+    const returnChildrenNumber = (passenger: Passenger) : number => {
+      if(!passenger.children )
+        return 0
+      const howManyChildren = passenger.children!.length
+      console.error(passenger.name + ' Tiene ' + howManyChildren + ' hijos')
+      return howManyChildren
     }
+    returnChildrenNumber(passenger1)
 
-    console.log(SuperClass)
-
-    const myClass = new SuperClass()
-    console.log(myClass)
   }
 
 
