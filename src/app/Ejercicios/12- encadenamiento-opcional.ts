@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+/*import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,17 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class picapollo implements OnInit{
-  public title:string = "Hola Mundo"
-  public counter: number = 10
+  public title:string = "nueva app"
   public edad = 18.5
-  increaseBy(num: number): void{
-
-    this.counter += num;
-  }
-
-  resetCounter(): void{
-    this.counter = 10;
-  }
 
   constructor(){
     interface Passenger{
@@ -48,3 +39,4 @@ export class picapollo implements OnInit{
   ngOnInit(): void {
   }
 }
+*/
