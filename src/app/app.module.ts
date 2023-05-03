@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { picapollo } from './app.component';
+import { counterComponent } from './Counter/counter.component';
 
 @NgModule({
   declarations: [
-    picapollo
+    picapollo,
+    counterComponent
   ],
   imports: [
     BrowserModule,

@@ -11,8 +11,7 @@ export class picapollo implements OnInit{
   public counter: number = 10
   public edad = 18.5
   increaseBy(num: number): void{
-
-    this.counter += num;
+    this.counter += num
   }
 
   resetCounter(): void{
