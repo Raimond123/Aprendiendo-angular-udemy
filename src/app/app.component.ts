@@ -10,13 +10,7 @@ export class picapollo implements OnInit{
   public title:string = "Hola Mundo"
   public counter: number = 10
   public edad = 18.5
-  increaseBy(num: number): void{
-    this.counter += num
-  }
-
-  resetCounter(): void{
-    this.counter = 10;
-  }
+ 
 
   constructor(){
     interface Passenger{
