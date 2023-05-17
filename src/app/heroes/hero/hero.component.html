@@ -10,23 +10,24 @@
   <td>Capitalizado: </td>
   <dd> {{capitalizedName}}</dd>
 </dl>
-
 <button
 *ngIf="name !== 'spiderman'"
 (click) = "changeHero()"
 class = "btn btn-primary mx-2">
-  Cambiar nombre
+Cambiar nombre
 </button>
 
 <button
 *ngIf="age !== 19"
 (click) = "changeAge()"
 class = "btn btn-primary">
-  Cambiar edad
+Cambiar edad
 </button>
 
 <button
 (click) = "resetForm()"
 class = "btn btn-primary mx-2">
-  Reiniciar formulario
+Reiniciar formulario
 </button>
+
+{{age !== 19}}

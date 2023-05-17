@@ -28,7 +28,7 @@ export class HeroComponent {
     this.age = 19
   }
   resetForm(): void{
-    this.name = "Pitel Parker"
+    this.name = "Pitel Parkel"
     this.age = 18
     // document.querySelectorAll('h1')!.forEach(element => {element.innerHTML = '<h1>desde angular </h1>'})
   }
