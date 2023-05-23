@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { CounterModule } from './Counter/Components/counter/Counter.module';
 import { picapollo } from './app.component';
 //import { HeroesModule } from './heroes/heroes.module';
-import { HeroComponent } from './heroes/hero/hero.component';
-import { ListComponent } from './heroes/list/list.component';
+//import { HeroComponent } from './heroes/hero/hero.component';
+//import { ListComponent } from './heroes/list/list.component';
 import {HeroesComponent } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HeroesComponent } from './heroes/heroes.module';
     BrowserModule,
     AppRoutingModule,
     HeroesComponent,
-    CounterModule
+    CounterModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [picapollo]
