@@ -10,12 +10,20 @@ export class MainPageComponent {
   public characters: Character[] = [{
     name: "Krilin",
     power: 1000
-},{
-  name: 'Goku',
-  power: 10000
-},{
-  name: "Nappa",
-  power: 8000
-}]
+  },{
+    name: 'Goku',
+    power: 10000
+  },{
+    name: "Nappa",
+    power: 8000
+  }];
+
+  onNewCharacter(character: Character): void {
+
+    console.log('MainPage')
+    console.log(character)
+  }
 }
+
+
 
