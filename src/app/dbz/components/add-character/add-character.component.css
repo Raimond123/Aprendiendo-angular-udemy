@@ -1,0 +1,7 @@
+.glow-effect:hover
+{
+  /* background: #008000; */
+  box-shadow: 0 0 5px #0b5ed7, 0 0 25px #0b5ed7, 0 0 50px #0b5ed7, 0 0 200px #0b5ed7;
+  border-color: whitesmoke;
+  color: white;
+}
